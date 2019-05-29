@@ -20,7 +20,7 @@ COPY CopyStorm.zip .
 
 RUN unzip CopyStorm.zip
 
-COPY license.txt /CopyStorm/licenst.txt
+COPY license.txt /CopyStorm/license.txt
 COPY config.copyStorm /config.copyStorm
 COPY run.sh /run.sh
 
