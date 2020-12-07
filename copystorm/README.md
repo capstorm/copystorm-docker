@@ -10,8 +10,10 @@ To use this dockerfile to run CopyStorm in a container, a few additional files a
 
 This container can be built by:
 1. Checking out this Git repo.
-2. Copying the files referenced above (using the same naming convention) into the Docker folder [.](here)
-3. Performing a standard Docker image build and uploading the result to your organization's container registry.
+2. Copying the config.copyStorm and license.txt files referenced above (using the same naming convention) into the Docker folder [.](here)
+3. Creating a CapstormConfig/ folder in the image root.
+4. Copying the CapstormCustomerKey.txt file into the CapstormConfig/ folder.
+5. Performing a standard Docker image build and uploading the result to your organization's container registry.
 
 Best practices for image naming and tagging include:
 * "CopyStorm" in the container name.
